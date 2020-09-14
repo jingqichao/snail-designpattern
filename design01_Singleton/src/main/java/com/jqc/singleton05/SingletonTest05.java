@@ -13,7 +13,7 @@ public class SingletonTest05 {
     }
 }
 
-//懒汉式（线程不安全）
+//懒汉式（线程安全，同步代码块）
  class Singleton {
     //1.构造器私有化
     private Singleton() {
