@@ -13,7 +13,7 @@ public class SingletonTest07 {
     }
 }
 
-//懒汉式（静态内部类）推荐使用
+//静态内部类，推荐使用
  class Singleton {
     //1.构造器私有化
     private Singleton() {
