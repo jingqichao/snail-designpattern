@@ -13,7 +13,7 @@ public class SingletonTest06 {
     }
 }
 
-//懒汉式（双重检查）推荐使用
+//双重检查实现单例，推荐使用
  class Singleton {
     //1.构造器私有化
     private Singleton() {
